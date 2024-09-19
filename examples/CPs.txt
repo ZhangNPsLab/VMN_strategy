@@ -1,0 +1,9 @@
+Molecule1 O=C(/C=C/C1=CC=CC=C1)C2=C(O)C3=C(O[C@](C4C[C@@](C4(C)C)([H])C5)(C)[C@]5([H])C3)C(C)=C2OC
+Molecule2 O=C(/C=C/C1=CC=CC=C1)C2=C(O)C(C)=C3C(C[C@@](C[C@]4([H])C[C@@]5([H])C4(C)C)([H])[C@]5(C)O3)=C2OC
+Molecule3 OC(/C=C/C1=CC=CC=C1)=C2C([C@](C)(C/C=C(CC/C=C(C)/C)\CO)C(C(C)(C)C\2=O)=O)=O
+Molecule4 O=C([C@]1([H])[C@H](C/C=C(C=O)\C)C(C)=CC[C@@]1([H])C2=CC=CC=C2)C3=C(O)C(C)=C(O)C(C)=C3OC
+Molecule5 O=C([C@]1([H])[C@@H](/C=C(C)/C=O)C=C(C)C[C@@]1([H])C2=CC=CC=C2)C3=C(O)C(C)=C(O)C(C)=C3OC
+Molecule6 OC(/C=C/C1=CC=CC=C1)=C2C(C3=C(O[C@@]4(C)[C@@]([H])(CC/C(C)=C/CC(C)(C)/C=C/C4)C3)C(C)(C)C\2=O)=O
+Molecule7 OC1=C(C(/C=C/C2=CC=CC=C2)=O)C(OC)=C(C)C3=C1C[C@@]([C@]4(O3)C(C(C5(C)C)=O)=C(O)C[C@@](C6=CC=CC=C6)([H])C4)(C)C5=O
+Molecule8 O=C(C(C)(C)C([C@@]1(CC2=C(OC)C(C(/C=C/C3=CC=CC=C3)=O)=C(O)C(C)=C2O)C)=O)/C(C1=O)=C(/C=C/C4=CC=CC=C4)O
+

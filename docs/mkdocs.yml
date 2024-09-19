@@ -1,0 +1,10 @@
+site_name: VMN Documentation
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - required data: data.md
+  - In silico MS/MS Data: in_silico_msms.md
+  - Auto Neutral Losses Spectrum: auto_neutral_losses.md
+  - Auto Characteristic Data: auto_characteristic.md
+  - Auto Crude Metabolites Filter: auto_crude_metabolites.md
