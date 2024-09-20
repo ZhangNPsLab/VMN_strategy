@@ -32,10 +32,10 @@ def simulate_data(request):
             for idx, smiles in enumerate(smiles_list, start=1):
                 f.write(f"Molecule{idx} {smiles}\n")
 
-        # 启动异步任务
+
         task = run_simulation_task.delay(molecule_file_path, user_directory)
 
-        # 返回任务ID
+
         return JsonResponse({'status': 'success', 'task_id': task.id})
 
 
@@ -123,7 +123,7 @@ def show_spectrum(request):
     if not os.path.exists(output_file):
         return JsonResponse({'status': 'error', 'message': 'Output log file not found'}, status=404)
 
-    # 解析 output.log 文件，提取相应的质谱数据
+
     with open(output_file, 'r') as file:
         content = file.read()
 

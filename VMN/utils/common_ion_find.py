@@ -2,9 +2,7 @@ import os
 import csv
 from decimal import Decimal, getcontext, ROUND_DOWN
 
-# 设置精度，可以根据需要进行调整
 getcontext().prec = 10
-
 
 class CommonIonsAnalyzer:
     def __init__(self, base_dir, energy_level, min_neutral_loss=0):

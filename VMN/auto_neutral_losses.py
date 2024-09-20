@@ -137,10 +137,6 @@ def generate_neutral_losses(top_ions, min_neutral_loss, charge=1):
 
                 if neutral_loss >= Decimal(min_neutral_loss):
                     average_intensity = (Decimal(intensity1) + Decimal(intensity2)) / Decimal(2.0)
-                    neutral_loss = neutral_loss.quantize(Decimal('1.00000'), rounding=ROUND_DOWN)
-                    mz1 = Decimal(mz1).quantize(Decimal('1.00000'), rounding=ROUND_DOWN)
-                    mz2 = Decimal(mz2).quantize(Decimal('1.00000'), rounding=ROUND_DOWN)
-                    average_intensity = average_intensity.quantize(Decimal('1.00000'), rounding=ROUND_DOWN)
                     found = False
                     for nl in neutral_losses.keys():
                         if abs(neutral_loss - nl) < Decimal('1e-5'):

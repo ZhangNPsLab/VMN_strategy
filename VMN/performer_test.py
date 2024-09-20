@@ -1,7 +1,7 @@
 import os
 import random
 import csv
-from decimal import Decimal, getcontext, ROUND_DOWN
+from decimal import Decimal, getcontext
 from VMN.utils import pridict_ms, common_ion_find
 
 getcontext().prec = 10
@@ -50,14 +50,14 @@ def calculate_scores(base_dir, num_molecules, energy_level, num_test):
 
     def calculate_rank_score(rank):
         if rank is None:
-            return Decimal(0).quantize(Decimal('1.0000'), rounding=ROUND_DOWN)
+            return Decimal(0)
         if rank <= 5:
-            return Decimal(3).quantize(Decimal('1.0000'), rounding=ROUND_DOWN)
+            return Decimal(3)
         if rank <= 10:
-            return Decimal(2).quantize(Decimal('1.0000'), rounding=ROUND_DOWN)
+            return Decimal(2)
         if rank <= 15:
-            return Decimal(1).quantize(Decimal('1.0000'), rounding=ROUND_DOWN)
-        return Decimal(0).quantize(Decimal('1.0000'), rounding=ROUND_DOWN)
+            return Decimal(1)
+        return Decimal(0)
 
     ion_score = calculate_rank_score(ion_rank)
     neutral_loss_score = calculate_rank_score(neutral_loss_rank)
