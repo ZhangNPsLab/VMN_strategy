@@ -1,4 +1,0 @@
-Molecule1 O=C(N1)[C@]23N(C([C@]1(C[C@@]4(C(C=CC=C5C/C=C(C)\C)=C5NC4=O)C6(C)C)[C@]6([H])C3)=O)[C@@]([H])(C)CCC2
-Molecule2 O=C(N1)[C@]23N(C([C@]1(C[C@@]4(C(C=CC=C5)=C5NC4=O)C6(C)C)[C@]6([H])C3)=O)[C@@]([H])(C)CCC2
-Molecule3 O=C(N1)[C@]23N(C([C@]1(CC(C(C=CC=C4)=C4N5)=C5C6(C)C)[C@]6([H])C3)=O)[C@@]([H])(C)CCC2
-Molecule4 [H][C@@]12[C@@]3(CC(C(C=CC4=C5C=CC(C)(C)O4)=C5N6)=C6C2(C)C)C(N7[C@@]([H])(C)CCC[C@@]7(C(N3)=O)C1)=O

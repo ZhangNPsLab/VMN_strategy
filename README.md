@@ -1,2 +1,2 @@
-# VMN_strategy
-Core code using VMN strategy
+# SMMN_strategy
+Core code using SMMN strategy

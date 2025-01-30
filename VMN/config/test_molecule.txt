@@ -1,9 +1,0 @@
-Molecule1 O=C(O1)C=C2C=C[C@H]3N4CCCC[C@]4([H])[C@]21C3
-Molecule2 O=C(O1)C=C2C=C[C@H]3N4CC[C@H](OC)C[C@@]4([H])[C@]21C3
-Molecule3 O=C(O1)C=C2C[C@H](OC)[C@H]3N4CCCC[C@@]4([H])[C@]21C3
-Molecule4 O=C(O1)C=C2C=C[C@@H]3C[C@]21[C@]4([H])N(O3)CCCC4
-Molecule5 O=C(O1)C=C2C=C[C@@H]3C[C@]21[C@]4([H])N(O3)CCC(O)C4
-Molecule6 O=C(O1)C[C@@]23[C@]1(C[C@@H](O)C=C3)[C@@]4([H])N(O2)CC[C@H](OC)C4
-Molecule7 [H][C@@]12N(OC3C([C@@]2(O4)CC=C3)=CC4=O)CC[C@H](OC)C1
-Molecule8 O=C1C=C2[C@@H]3N4CCCC[C@]4([H])[C@]2(CC=C3)O1
-

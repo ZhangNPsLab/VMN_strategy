@@ -1,4 +1,4 @@
-# VMN Data Modules
+# SMMN Data Modules
 
 MZmol's main functions encompass four key aspects:
 

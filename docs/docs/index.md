@@ -1,4 +1,4 @@
-![VMN Logo](/static/img/VMN_logo.png){: style="display: block; margin-left: auto; margin-right: auto; width: 300px;" }
+![SMMN Logo](/static/img/SMMN_logo.png){: style="display: block; margin-left: auto; margin-right: auto; width: 300px;" }
 
 # Welcome to MZmol
 
